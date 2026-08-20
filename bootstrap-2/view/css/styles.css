@@ -1,0 +1,30 @@
+.logo {
+  background-color: #66bb6a;
+  color: white;
+  height: 10vh;
+}
+
+.menu {
+  background-color: #1b5e20;
+  color: white;
+  height: 10vh;
+}
+
+.body-style {
+  background-color: #e8f5e9;
+  height: 80vh;
+}
+
+.box {
+  border: 2px solid #1b5e20;
+  background-color: white;
+  width: 70%;
+  height: 80%;
+  margin: 3% 18%;
+  border-radius: 20px;
+}
+
+.footer-style {
+  background-color: #A5D6A7;
+  height: 10vh;
+}
