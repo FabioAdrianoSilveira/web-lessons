@@ -1,6 +1,6 @@
 # Web
 
-Repositório dedicado ao armazenamento de exercícios desenvolvidos durante a aula de Programação de Sistemas Web voltada para o aprendizado de tecnologias web (HTML, CSS, JavaScript e frameworks).
+Repositório dedicado ao armazenamento de exercícios desenvolvidos durante a aula de Programação de Sistemas Web, voltada para o aprendizado de tecnologias web (HTML, CSS, JavaScript e frameworks).
 
 ---
 
