@@ -1,0 +1,23 @@
+body {
+  margin: 0 0;
+}
+
+div {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.cabecalho {
+  background-color: #e63946;
+  height: 10vh;
+}
+
+.corpo {
+  background-color: #f4d35e;
+  height: 80vh;
+}
+
+.rodape {
+  background-color: #457b9d;
+  height: 10vh;
+}
