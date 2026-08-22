@@ -1,16 +1,48 @@
-# Web
+# ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Repositório dedicado ao armazenamento de exercícios desenvolvidos durante a aula de Programação de Sistemas Web, voltada para o aprendizado de tecnologias web (HTML, CSS, JavaScript e frameworks).
+Repositório dedicado ao armazenamento de exercícios desenvolvidos durante a aula de Programação de Sistemas Web.
 
 ---
 
-## :computer: Utilitários de desenvolvimento
+## :gear: Projetos
 
-### :link: IDE recomendada
+Os projetos ficarão disponíveis na branch main, caso queira consultar algum trecho de código, sinta-se livre para navegar. Caso queira baixar um projeto, utilize o [download-directory • github • io](https://download-directory.github.io/)
 
-- [Visual Studio Code](https://code.visualstudio.com/download)
+### Aula 1
 
-#### :gear: Extensões que eu uso
+[curriculo](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/curriculo): Primeiro projeto HTML (construção de currículo).
+
+### Aula 2
+
+[css-tableless-1](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/css-tableless-1): Primeiro projeto com CSS.
+
+[css-tableless-2](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/css-tableless-2): Primeiro projeto CSS que implementa divs lado a lado.
+
+[css-tableless-3](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/css-tableless-3): Projeto CSS que implementa divs lado a lado em diversas sessões.
+
+### Aula 3
+
+[flexbox-1](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/flexbox-1): Primeiro projeto que implementa Flexbox no CSS.
+
+[grid-1](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/grid-1): Primeiro projeto que implementa Grid no CSS.
+
+### Aula 4
+
+[bootstrap-1](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/bootstrap-1): Primeiro projeto que implementa Bootstrap.
+
+[bootstrap-2](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/bootstrap-2): Primeiro projeto que implementa Bootstrap com CSS local.
+
+### Aula 5
+
+[javascript-1](https://github.com/FabioAdrianoSilveira/web-lessons/tree/main/javascript-1): Primeiro projeto que implementa interção com JavaScript.
+
+## :hammer_and_pick: Ferramentas
+
+### :computer: IDE recomendada
+
+[Visual Studio Code](https://code.visualstudio.com/download)
+
+#### Entensões que eu uso
 
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
@@ -29,7 +61,7 @@ Repositório dedicado ao armazenamento de exercícios desenvolvidos durante a au
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Bootstrap](https://getbootstrap.com/)
 
-### :hammer_and_wrench: Ferramentas de estilização
+### :cherry_blossom: Utilitários de estilização
 
 - [Paletas de cores](https://colorhunt.co/palettes/popular)
 - [Seletor de cores](https://redketchup.io/color-picker)

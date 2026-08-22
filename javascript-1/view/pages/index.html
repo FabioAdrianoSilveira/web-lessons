@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import CSS local -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Import CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Import JavaScript local -->
+    <script type="Text/JavaScript" src="../scripts/calculate.js"></script>
+    <title>JavaScript 1</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 header">Vendas</div>
+        </div>
+        <div class="row">
+          <div class="col-12 body-style">
+            <form action="#" method="post" name="frmVendas">
+              <div class="row text-center">
+                <div class="col-6">
+                  <label for="txtDescricao" name="lblDescricao"
+                    >Descrição</label
+                  >
+                  <br />
+                  <input type="text" name="txtDescricao" size="30" />
+                </div>
+                <div class="col-6">
+                  <label for="nmrValor" name="lblValor">Valor</label>
+                  <br />
+                  <input type="number" name="nmrValor" size="15" />
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="col-6">
+                  <label for="sltQuantidade" name="lblQuantidade"
+                    >Quantidade</label
+                  >
+                  <br />
+                  <select name="sltQuantidade">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label for="sltDesconto" name="lblDesconto"
+                    >% de desconto</label
+                  >
+                  <br />
+                  <select name="sltDesconto">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 text-center">
+                  <br />
+                  <button
+                    type="submit"
+                    name="btnCadastrar"
+                    class="btn btn-success"
+                    onclick="calcularDesconto()"
+                  >
+                    Calcular Desconto
+                  </button>
+                </div>
+                <div class="col-6 text-center">
+                  <br />
+                  <button type="reset" name="btnLimpar" class="btn btn-warning">
+                    Limpar
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
