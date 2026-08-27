@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import do Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Import de CSS Local -->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!-- Import do JavaScript -->
+    <script src="../script/validation.js"></script>
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-12 form-header">CADASTRO</div>
+        </div>
+        <div class="row">
+          <div class="col-12 form-body">
+            <form action="#" method="post" name="frmCadastro">
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                  <label for="txtNome" name="lblNome"> Nome </label>
+                  <br />
+                  <input type="text" name="txtNome" size="80" required />
+                </div>
+                <div class="col-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                  <label for="iIdade" name="lblIdade">Idade</label>
+                  <br />
+                  <input type="number" name="iIdade" min="20" max="30" />
+                </div>
+                <div class="col-8"></div>
+              </div>
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                  <label for="txtEndereco" name="lblEndereco">Endereco</label>
+                  <br />
+                  <input type="text" name="txtEndereco" size="100" required />
+                </div>
+                <div class="col-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-7">
+                  <label for="txtTelefone" name="lblTelefone">Telefone</label>
+                  <br />
+                  <input type="text" name="txtTelefone" size="10" />
+                </div>
+                <div class="col-4"></div>
+              </div>
+              <div class="row form-footer">
+                <div class="col-1"></div>
+                <div class="col-1">
+                  <button
+                    type="submit"
+                    name="btnEnviar"
+                    class="btn btn-success"
+                    onclick="validateDados()"
+                  >
+                    Enviar
+                  </button>
+                </div>
+                <div class="col-1">
+                  <button type="reset" name="btnLimpar" class="btn btn-warning">
+                    Limpar
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
