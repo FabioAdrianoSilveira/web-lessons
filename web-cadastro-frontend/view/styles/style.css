@@ -1,0 +1,25 @@
+.box {
+  width: 70%;
+  height: 80%;
+  margin: 3% 18%;
+  border: 2px solid #112d4e;
+  border-radius: 10px;
+  background-color: #f9f7f7;
+  overflow: hidden;
+}
+
+.form-header {
+  height: 10vh;
+  text-align: center;
+  background-color: #3f72af;
+  color: white;
+}
+
+.form-body {
+  height: 40vh;
+  background-color: #dbe2ef;
+}
+
+.form-footer {
+  margin-top: 1%;
+}
