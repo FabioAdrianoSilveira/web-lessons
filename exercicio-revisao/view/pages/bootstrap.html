@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import do Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Import do CSS local -->
+    <link rel="stylesheet" href="../styles/bootstrap.css" />
+    <!-- Import do javascript -->
+    <script src="../scripts/calculate.js"></script>
+    <title>Calculo de Desconto - Bootstrap</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row page-header"></div>
+      <div class="row page-body">
+        <div class="col-2 body-side"></div>
+        <div class="col-8 form-div">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="row text-center fw-bold form-header">
+                <div class="col-12">PRODUTO</div>
+              </div>
+              <div class="row">
+                <div class="col-12 form-body">
+                  <form action="#" method="post" name="frmProduto">
+                    <div class="row line">
+                      <div class="col-1"></div>
+                      <div class="col-1">
+                        <label for="iCodigo" name="lblCodigo">Código</label>
+                        <br />
+                        <input type="number" name="iCodigo" />
+                      </div>
+                      <div class="col-3"></div>
+                      <div class="col-4">
+                        <label for="txtDescricao" name="lblDescricao"
+                          >Descrição</label
+                        >
+                        <br />
+                        <input type="text" name="txtDescricao" size="50" />
+                      </div>
+                      <div class="col-1"></div>
+                      <div class="col-1">
+                        <label for="iValor" name="lblValor">Valor</label>
+                        <br />
+                        <input type="number" name="iValor" />
+                      </div>
+                      <div class="col-1"></div>
+                    </div>
+                    <div class="row line">
+                      <div class="col-1"></div>
+                      <div class="col-1">
+                        <label for="selDesconto" name="lblDesconto"
+                          >Desconto</label
+                        >
+                        <br />
+                        <select name="selDesconto">
+                          <option value="10">10%</option>
+                          <option value="20">20%</option>
+                          <option value="30">30%</option>
+                          <option value="40">40%</option>
+                          <option value="50">50%</option>
+                        </select>
+                      </div>
+                      <div class="col-3"></div>
+                      <div class="col-2">
+                        <label for="txtObservacao" name="lblObservacao"
+                          >Observação</label
+                        >
+                        <br />
+                        <textarea
+                          name="txtObservacao"
+                          rows="3"
+                          cols="30"
+                        ></textarea>
+                      </div>
+                      <div class="col-6"></div>
+                    </div>
+                    <div class="row line">
+                      <div class="col-2"></div>
+                      <div class="col-1">
+                        <button
+                          type="submit"
+                          class="btn btn-success"
+                          onclick="calcTotal()"
+                        >
+                          Calcular
+                        </button>
+                      </div>
+                      <div class="col-5"></div>
+                      <div class="col-1">
+                        <button type="reset" class="btn btn-warning">
+                          Limpar
+                        </button>
+                      </div>
+                      <div class="col-3"></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 body-side"></div>
+      </div>
+      <div class="row page-footer"></div>
+    </div>
+  </body>
+</html>

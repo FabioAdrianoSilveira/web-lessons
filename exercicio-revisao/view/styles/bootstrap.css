@@ -1,0 +1,30 @@
+.page-header {
+    height: 20vh;
+    background-color: #FFF5E4;
+}
+
+.page-body {
+    height: 60vh;
+
+}
+
+.body-side {
+    background-color: #FFE3E1;
+}
+
+.form-header {
+    background-color: #F9F5F6;
+    height: 10%;
+}
+
+.form-div {
+    background-color: #FF9494;
+}
+
+.line {
+    margin-top: 2%;
+}
+.page-footer {
+    height: 20vh;
+    background-color: #FFD1D1;
+}
