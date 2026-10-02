@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Import do JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Import do CSS local -->
+     <link rel="stylesheet" href="../styles/style.css">
+    <title>Jquery 1</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post"></form>
+        <div class="row">
+            <div class="col-2">
+                <label for="txtMatricula">Matrícula</label>
+                <br>
+                <input type="text" name="txtMatricula" id="txtMatricula" size="10">
+            </div>
+            <div class="col-3">
+                <label for="txtNome">Nome</label>
+                <br>
+                <input type="text" name="txtNome" id="txtNome" size="30" required>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <label for="txtCpf">CPF</label>
+                <br>
+                <input type="text" name="txtCpf" id="txtCpf" size="14">
+            </div>
+            <div class="col-4">
+                <label for="txtEndereco">Endereço</label>
+                <br>
+                <input type="text" name="txtEndereco" id="txtEndereco" size="30">
+            </div>
+            <div class="col-4">
+                <label for="iIdade">Idade</label>
+                <br>
+                <input type="number" name="iIdade" id="iIdade">
+            </div>
+        </div>
+        <div class="row">
+            <label for="chkOpcional">Opcional</label>
+            <input type="checkbox" name="chkOpcional" id="chkOpcional">
+        </div>
+        <div class="row opcional">
+            <label for="txtOpcional">Campo opcional</label>
+            <input type="text" name="txtOpcional" id="txtOpcional">
+        </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

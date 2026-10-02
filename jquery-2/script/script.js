@@ -1,0 +1,1 @@
+document.getElementsByClassName("dados-window")[0].classList.add('selected')
